@@ -29,4 +29,4 @@ WORKDIR BlackWidow
 RUN pip2 install -r requirements.txt
 
 
-ENDPOINT ["alias ll='ls -al'"] 
+ENTRYPOINT ["alias ll='ls -al'"] 
