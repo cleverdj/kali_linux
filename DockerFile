@@ -1,4 +1,4 @@
-FROM kali-linux-docker:latest
+FROM kalilinux/kali-linux-docker:latest
 
 MAINTAINER cleverdj <cleverpdj@gmail.com>
 
