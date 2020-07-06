@@ -18,4 +18,7 @@ RUN git clone https://github.com/s0md3v/XSStrike.git && \
     cd XSStrike && \
     pip3 install -r requirements.txt
 
+# Whatweb
+RUN git clone https://github.com/urbanadventurer/WhatWeb.git
+
 CMD alias ll='ls -al' 
