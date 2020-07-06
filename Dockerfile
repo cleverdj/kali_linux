@@ -8,7 +8,7 @@ RUN apt-get clean && \
     apt-get install -y metasploit-framework
 
 # Some system tools
-RUN apt-get install -y unzip vim curl telnet wget python-pip python3-setuptools python3-pip net-tools bash-completion iputils-tracepath npm 
+RUN apt-get install -y unzip vim curl telnet wget python-pip python3-setuptools python3-pip net-tools bash-completion iputils-tracepath
 
 # Hack Tools
 RUN apt-get install -y nmap sqlmap nikto lynis wpscan
