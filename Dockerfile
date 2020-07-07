@@ -29,3 +29,6 @@ RUN apt-get install -y exploitdb && \
 
 # metasploit
 RUN apt-get install -y metasploit-framework
+
+# ENV
+RUN echo 'alias ll="ls -al"' >> ~/.bashrc
