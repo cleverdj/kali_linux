@@ -15,13 +15,11 @@ RUN apt-get install -y nmap sqlmap nikto lynis wpscan
 
 # XSStrike
 RUN git clone https://github.com/s0md3v/XSStrike.git && \
-    cd XSStrike && \
-    pip3 install -r requirements.txt
+    pip3 install -r XSStrike/requirements.txt
 
 # Whatweb
 RUN git clone https://github.com/urbanadventurer/WhatWeb.git
 
 # BlackWidow
-RUN git clone https://github.com/1N3/BlackWidow.git
-WORKDIR BlackWidow
-RUN pip2 install -r requirements.txt
+RUN git clone https://github.com/1N3/BlackWidow.git && \
+    pip2 install -r BlackWidow/requirements.txt
