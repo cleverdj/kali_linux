@@ -25,6 +25,3 @@ RUN git clone https://github.com/urbanadventurer/WhatWeb.git
 RUN git clone https://github.com/1N3/BlackWidow.git
 WORKDIR BlackWidow
 RUN pip2 install -r requirements.txt
-
-
-ENTRYPOINT ["alias ll='ls -al'"] 
