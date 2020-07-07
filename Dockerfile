@@ -11,7 +11,7 @@ RUN apt-get clean && \
 RUN apt-get install -y unzip vim curl telnet wget python-pip python3-setuptools python3-pip net-tools bash-completion iputils-tracepath
 
 # Hack Tools
-RUN apt-get install -y nmap sqlmap nikto lynis wpscan
+RUN apt-get install -y nmap sqlmap nikto lynis wpscan exploitdb
 
 # XSStrike
 RUN git clone https://github.com/s0md3v/XSStrike.git && \
